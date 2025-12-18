@@ -6,12 +6,11 @@ nav{
     gap:25px;
     flex-wrap:wrap;
     justify-content: right;
+    font-size:15px;
 }
 .IntroPage{
  margin-top:50px;
  padding:100px;
- box-shadow: 12px 12px 12px 12px rgb(0,0,0,0.3);
- border-radius: 30px;
 }
 .QuickNavigation{
     display:flex;
@@ -105,7 +104,7 @@ footer{
 }
 .AboutMeProfile{
     border: 1px solid blue;
-    padding:10px;
+    padding:20px;
     margin:15px;
 }
 img{
@@ -115,16 +114,16 @@ img{
 }
 .EducationalBackground{
     border: 1px solid red;
-    margin:15px;
+    margin:20px;
     padding:10px;
 }
 .Personality{
     border: 1px solid red;
-    margin:15px;
-    padding:10px;
+    margin:20px;
+    padding:15px;
 }
 .GoalsandAspirations{
     border: 1px solid red;
-    margin:15px;
+    margin:20px;
     padding:10px;
 }
