@@ -1,6 +1,12 @@
 body{
     font-family:'Times New Roman', Times, serif;
 }
+nav{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content: right;
+}
 .IntroPage{
  margin-top:50px;
  padding:100px;
@@ -107,4 +113,19 @@ img{
     display:grid;
     margin: 0 auto;
     /* moves the image to the center */
+}
+.EducationalBackground{
+    border: 1px solid red;
+    margin:15px;
+    padding:10px;
+}
+.Personality{
+    border: 1px solid red;
+    margin:15px;
+    padding:10px;
+}
+.GoalsandAspirations{
+    border: 1px solid red;
+    margin:15px;
+    padding:10px;
 }
