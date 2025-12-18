@@ -1,0 +1,97 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.IntroPage{
+ margin-top:50px;
+ padding:100px;
+ box-shadow: 12px 12px 12px 12px rgb(0,0,0,0.3);
+ border-radius: 30px;
+ border:2px solid blue;
+}
+.QuickNavigation{
+    display:flex;
+    justify-content: center;
+    /* Justify content is used to position the box either to right or left */
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    padding:80px;
+    /* flex-wrap controls how your flex boxes react when resized */
+}
+.Aboutme{
+  border:2px solid blue;
+  height:300px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+}
+.MyFavorites{
+  border:2px solid blue;
+  height:300px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+}
+.Hobbies{
+  border:2px solid blue;
+  height:300px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+}
+.Feedback{
+  border:2px solid blue;
+  height:300px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+}
+#Quick{
+   text-align: center;
+   margin-top:100px;
+   padding:0;
+}
+h3{
+    text-align: center;
+
+}
+.header{
+    text-align: center;
+    width:100%;
+}
+h1{
+    text-align:center;
+    font-size:40px;
+}
+h4{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+.buttons{
+    display:flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom: -40px;
+}
+#mainp{
+    font-size:20px;
+}
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
