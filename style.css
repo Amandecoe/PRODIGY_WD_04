@@ -8,6 +8,13 @@ nav{
     justify-content: right;
     font-size:15px;
 }
+.transparent-btn{
+    display:grid;
+    margin: 0 auto;
+    background-color: transparent;
+    border:0.5px solid blue;
+    border-radius:30px;
+}
 .IntroPage{
  margin-top:50px;
  padding:100px;
@@ -106,6 +113,8 @@ footer{
     border: 1px solid blue;
     padding:20px;
     margin:15px;
+    border-radius:30px;
+
 }
 img{
     display:grid;
@@ -116,14 +125,20 @@ img{
     border: 1px solid red;
     margin:20px;
     padding:10px;
+    border-radius:30px;
 }
 .Personality{
     border: 1px solid red;
     margin:20px;
     padding:15px;
+    border-radius:30px;
 }
 .GoalsandAspirations{
     border: 1px solid red;
     margin:20px;
     padding:10px;
+    border-radius:30px;
+}
+.personalitybuttons{
+    border-radius:30px;
 }
