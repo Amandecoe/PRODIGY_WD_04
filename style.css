@@ -64,10 +64,6 @@ nav{
    margin-top:100px;
    padding:0;
 }
-h3{
-    text-align: center;
-
-}
 .header{
     text-align: center;
     width:100%;
@@ -100,6 +96,9 @@ footer{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+#AboutMe{
+    text-align: center;
 }
 #profilep{
     text-align:center;
