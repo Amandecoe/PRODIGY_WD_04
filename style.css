@@ -178,15 +178,17 @@ img{
     cursor:pointer;
 }
 #Moviexp{
-    margin:10px;
-    padding:20px;
+    margin:50px;
+    padding:0px;
+    font-size:20px;
 }
 #Mov{
     display:flex;
-    justify-content: flex-start;
-    padding:0px;
-    margin-left:30px;
-    margin-top:50px;
+    justify-content: center;
+    padding:20px;
+    margin-left:40px;
+    margin-top:30px;
+    font-size:50px;
 }
 #oldman{
     display:flex;
@@ -195,23 +197,24 @@ img{
 }
 #Dir{
     display:flex;
-    margin-left:55px;
+    margin-left:70px;
     justify-content: flex-start;
     font-size:25px;
 }
 .NoCountryImg{
     float:right;
-    width:50%;
+    width:60%;
     height:auto;
     border-radius: 10px;
     margin-left:15px;
     margin-bottom:15px;
 }
 .NoCountryForOldMen{
-    padding:30px;
+    padding:20px;
     overflow:auto;
 }
 #oldmanp{
     font-size:20px;
     overflow:auto;
+    margin:30px;
 }
