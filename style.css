@@ -1,6 +1,13 @@
 body{
     font-family:'Times New Roman', Times, serif;
 }
+.navbar{
+    display:flex;
+    list-style: none;
+    padding:0;
+    margin:0;
+    justify-content: flex-end;
+}
 .navbar ul{
     list-style-type: none;
     overflow: hidden;
@@ -13,6 +20,7 @@ body{
     padding: 15px;
     display:block;
     text-align:center;
+
 }
 .navbar li{
     float:left;
@@ -130,7 +138,6 @@ img{
     display:grid;
     margin: 0 auto;
     /* moves the image to the center */
-    border-radius: 100px;
 }
 .EducationalBackground{
     margin:20px;
