@@ -76,7 +76,7 @@ nav{
 }
 h1{
     text-align:center;
-    font-size:40px;
+    font-size:50px;
 }
 h4{
     display:flex;
@@ -110,35 +110,39 @@ footer{
     text-align:center;
 }
 .AboutMeProfile{
-    border: 1px solid blue;
     padding:20px;
     margin:15px;
     border-radius:30px;
-
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
+    background-color:beige;
 }
 img{
     display:grid;
     margin: 0 auto;
     /* moves the image to the center */
+    border-radius: 100px;
 }
 .EducationalBackground{
-    border: 1px solid red;
     margin:20px;
     padding:10px;
     border-radius:30px;
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
+    background-color: beige;
 }
 .Personality{
-    border: 1px solid red;
     margin:20px;
-    padding:15px;
+    padding:20px;
     border-radius:30px;
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
+    background-color: beige;
 }
 .GoalsandAspirations{
-    border: 1px solid red;
     margin:20px;
     padding:10px;
     border-radius:30px;
+    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
+    background-color: beige;
 }
-.personalitybuttons{
-    border-radius:30px;
+.Personality button{
+    border-radius: 10px;
 }
