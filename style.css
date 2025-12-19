@@ -134,15 +134,15 @@ footer{
 #AboutMe{
     text-align: center;
 }
+.contentofme{
+    display:flex;
+}
 #profilep{
     text-align:center;
 }
 .AboutMeProfile{
     padding:20px;
     margin:15px;
-    border-radius:30px;
-    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
-    background-color:beige;
 }
 img{
     display:grid;
