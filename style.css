@@ -163,3 +163,16 @@ img{
 .Personality button{
     border-radius: 10px;
 }
+#things{
+    text-align: center;
+}
+.options {
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+}
+.options button{
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+}
