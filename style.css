@@ -13,6 +13,10 @@ body{
     padding:0;
     margin:5px;
     justify-content: flex-end;
+    position:sticky;
+    top: 0;           /* Stick exactly at the top of the screen */
+    z-index: 1000;    /* Keep it above other content, read about this before presentation */
+    background: transparent;
 }
 .navbar ul{
     list-style-type: none;
