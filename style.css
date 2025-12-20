@@ -258,31 +258,83 @@ img{
     overflow:auto;
     margin:30px;
 }
-.TitleHobbies{
-    font-size: 70px;
-    border: 1px solid red;
-}
 .Hobbiesz{
-    border:1px solid blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+    padding:80px;
 }
 #hobbytitle{
-  border: 1px solid blueviolet;
+  font-size: 70px;
+  text-align: center;
 }
-.inspir{
-    border:1px solid red;
+#lovetime{
+    font-size:30px;
+    text-align: center;
+}
+.gradientc{
+    width: 80px;
+    height: 4px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6EE7B7, #FDE68A, #F97316);
+    margin: 10px auto;
+    display:grid;
+}
+#worki{
+    text-align: center;
+    font-size:20px;
+    margin:30px;
+    padding:10px;
 }
 .Gym{
-    border: 1px solid red;
+  border:2px solid blue;
+  height:400px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+  margin:20px;
 }
 .Coding{
-    border:1px solid red;
+  border:2px solid blue;
+  height:400px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+  margin:20px;
 }
 .Reading{
-    border:1px solid blue;
+  border:2px solid blue;
+  height:400px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+  margin:20px;
 }
 .Moviesz{
-    border:1px solid red;
+  border:2px solid blue;
+  height:400px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+  margin:20px;
 }
 .Football{
-    border:1px solid blue;
+  border:2px solid blue;
+  height:400px;
+  width: 300px;
+  border-radius:30px;
+  box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+  font-size:20px;
+  padding:20px;
+  margin:20px;
 }
