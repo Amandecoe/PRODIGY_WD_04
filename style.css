@@ -258,6 +258,11 @@ img{
     overflow:auto;
     margin:30px;
 }
+.TitleHobbies{
+   margin:10px;
+   padding:10px;
+   text-align: center;
+}
 .Hobbiesz{
     display:flex;
     align-items: center;
@@ -287,35 +292,36 @@ img{
     font-size:20px;
     margin:30px;
     padding:30px;
+    border-radius: 20px;
+    box-shadow: 10px 12px 15px rgb(0, 0, 0, 0.3);;
 }
 .lookhobb{
     width:100px;
     height:30px;
     border-radius: 10px;
-    margin: 10px auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 30px;
 }
 .Gym{
   border:2px solid blue;
-  height:400px;
+  height:450px;
   width: 300px;
   border-radius:30px;
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
   margin:20px;
+  overflow: auto; /* adds a scroll bar when content moves out of the div's edge */
 }
 .Coding{
   border:2px solid blue;
-  height:400px;
+  height:450px;
   width: 300px;
   border-radius:30px;
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
   margin:20px;
+  overflow: auto;
 }
 .Reading{
   border:2px solid blue;
@@ -326,6 +332,7 @@ img{
   font-size:20px;
   padding:20px;
   margin:20px;
+  overflow: auto;
 }
 .Moviesz{
   border:2px solid blue;
@@ -336,6 +343,7 @@ img{
   font-size:20px;
   padding:20px;
   margin:20px;
+  overflow: auto;
 }
 .Football{
   border:2px solid blue;
@@ -346,4 +354,17 @@ img{
   font-size:20px;
   padding:20px;
   margin:20px;
+  overflow: auto;
+}
+#hobbyemoji{
+    text-align: center;
+    font-size:40px;
+}
+#codingemoji{
+    text-align: center;
+    font-size:40px;
+}
+#bookemoji{
+  text-align: center;
+  font-size:40px;
 }
