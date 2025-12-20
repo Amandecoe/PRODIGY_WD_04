@@ -384,6 +384,25 @@ img{
     border-radius: 20px;
     box-shadow: 0 12px 15px 10px rgb(0,0,0,0.3);
 }
+.Formandsidecontainer{
+    display:flex;
+    border: 1px solid red;
+}
+.side-container{
+    border: 1px solid red;
+}
+.Form-container{
+    border: 1px solid blue;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.Contact-info{
+    border: 1px solid green;
+}
 .Form-container .send{
     width:100%;
     height: 45px;
