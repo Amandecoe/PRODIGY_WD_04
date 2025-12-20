@@ -258,3 +258,31 @@ img{
     overflow:auto;
     margin:30px;
 }
+.TitleHobbies{
+    font-size: 70px;
+    border: 1px solid red;
+}
+.Hobbiesz{
+    border:1px solid blue;
+}
+#hobbytitle{
+  border: 1px solid blueviolet;
+}
+.inspir{
+    border:1px solid red;
+}
+.Gym{
+    border: 1px solid red;
+}
+.Coding{
+    border:1px solid red;
+}
+.Reading{
+    border:1px solid blue;
+}
+.Moviesz{
+    border:1px solid red;
+}
+.Football{
+    border:1px solid blue;
+}
