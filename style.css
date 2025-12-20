@@ -286,7 +286,16 @@ img{
     text-align: center;
     font-size:20px;
     margin:30px;
-    padding:10px;
+    padding:30px;
+}
+.lookhobb{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .Gym{
   border:2px solid blue;
