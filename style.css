@@ -348,7 +348,7 @@ img{
 .Oromayimg{
     Float:right;
     width:40%;
-    height:500px;
+    height:auto;
     margin-right:15px;
     margin-bottom:15px;
     border-radius: 10px;
@@ -358,6 +358,62 @@ img{
     font-size:20px;
     overflow:auto;
     margin:30px;
+}
+.CrimeandPunishment{
+    padding:40px;
+  overflow:auto;
+}
+#Crimetitle{
+    font-size: 40px;
+    text-align: left;
+}
+#Crimedir{
+    display:flex;
+    margin-left:20px;
+    justify-content: flex-start;
+    font-size:25px;
+}
+.CrimeandPunishmentimg{
+    Float:left;
+    width:40%;
+    height:auto;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
+}
+#Crimep{
+    font-size:20px;
+    overflow:auto;
+    margin:30px;
+}
+.Merbebt{
+    padding:40px;
+  overflow:auto;
+}
+#Merbebtitle{
+    font-size: 40px;
+    text-align: left;
+}
+#Merbebtdir{
+    display:flex;
+    margin-left:20px;
+    justify-content: flex-start;
+    font-size:25px;
+}
+#Merbebtp{
+    font-size:20px;
+    overflow:auto;
+    margin:30px;
+}
+.Merbebtimg{
+    Float:right;
+    width:40%;
+    height:auto;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
 }
 .TitleHobbies{
    padding:80px;
