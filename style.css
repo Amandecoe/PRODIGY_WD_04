@@ -11,6 +11,9 @@ body{
     padding:0;
     overflow-x:hidden;
 }
+#Hi{
+    font-size:20px;
+}
 .backgrndimg{
    background-image: url(./assets/Screenshot\ 2025-12-21\ at\ 7.29.56\ PM.png);
    height: 100vh;
