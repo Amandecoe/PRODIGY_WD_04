@@ -454,6 +454,50 @@ img{
     border-radius: 10px;
     box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
 }
+.Kitfo{
+    padding:40px;
+  overflow:auto;
+}
+#kitfotitle{
+    font-size: 40px;
+    text-align: left;
+}
+.Kitfoimg{
+    float:left;
+    width:40%;
+    height:auto;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
+}
+#kitfop{
+    font-size:20px;
+    overflow:auto;
+    margin:30px;
+}
+.Tibs{
+    padding:40px;
+  overflow:auto;
+}
+#Tibstitle{
+    font-size: 40px;
+    text-align: left;
+}
+#Tibsp{
+    font-size:20px;
+    overflow:auto;
+    margin:30px;
+}
+.Tibsimg{
+    Float:right;
+    width:40%;
+    height:auto;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
+}
 .TitleHobbies{
    padding:80px;
    margin:50px;
