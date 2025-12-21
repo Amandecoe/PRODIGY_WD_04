@@ -182,6 +182,7 @@ footer{
 #AboutMe{
     text-align: center;
     font-size:70px;
+    color:blue;
 }
 .contentofme{
     display:flex;
@@ -257,6 +258,7 @@ img{
 #fav{
     text-align: center;
     font-size:70px;
+    color:blue;
 }
 #things{
     text-align: center;
@@ -279,13 +281,17 @@ img{
     font-size: 30px;
     padding:10px;
     border-radius:10px;
-    cursor:pointer;
     width:300px;
     height:auto;
-    box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+    background:rgb(14, 14, 255);
+    border: none;
+    font-weight:bold;
+    box-shadow: 0 0 10px 1px rgb(70, 70, 255);
+    cursor:pointer;
 }
 .options a{
     text-decoration: none;
+    color:white;
 }
 .Movies{
     margin-top:200px;
@@ -593,6 +599,7 @@ img{
 #hobbytitle{
   font-size: 70px;
   text-align: center;
+  color:blue;
 }
 #lovetime{
     font-size:30px;
@@ -631,7 +638,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: hidden; /* adds a scroll bar when content moves out of the div's edge */
+  overflow: auto; /* adds a scroll bar when content moves out of the div's edge */
 }
 .Coding{
   border:2px solid blue;
@@ -653,7 +660,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: hidden;
+  overflow: scroll;
 }
 .Moviesz{
   border:2px solid blue;
@@ -664,7 +671,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: hidden;
+  overflow:scroll;
 }
 .Football{
   border:2px solid blue;
@@ -675,7 +682,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: hidden;
+  overflow: scroll;
 }
 #Moviemoji{
     text-align: center;
@@ -698,6 +705,7 @@ img{
   font-size:40px;
 }
 .hobbyending{
+    text-align: center;
     margin:30px;
     padding:30px;
     border-radius: 20px;
@@ -710,6 +718,7 @@ img{
 }
 #GetinTouch{
     font-size:70px;
+    color:blue;
 }
 #feedparag{
     margin:40px;
@@ -797,6 +806,13 @@ img{
     width:100%;
     height: 45px;
     border-radius: 15px;
+    background:rgb(14, 14, 255);
+    border: none;
+    font-weight:bold;
+    box-shadow: 0 0 10px 1px rgb(70, 70, 255);
+    cursor:pointer;
+    color:white;
+
 }
 .reach{
     text-align: center;
