@@ -1,11 +1,29 @@
+@font-face {
+    font-family: futura;
+    src: url(./assets/Futura\ PT\ Font/)
+}
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'futura';
     box-sizing: border-box;
     height:100%;
     width:100%;
     margin:0;
     padding:0;
     overflow-x:hidden;
+}
+.backgrndimg{
+   background-image: url(./assets/Screenshot\ 2025-12-21\ at\ 7.29.56\ PM.png);
+   height: 100vh;
+   width: 100vw;
+   position: fixed;
+   top: 0;
+   margin:0;
+   bottom: 0;
+   z-index: -2;
+   opacity: 0.6;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
 }
 .navbar{
     display:flex;
@@ -25,12 +43,11 @@ body{
     margin:0px;
 }
 .navbar a{
-    color: black;
     text-decoration: none;
     padding: 15px;
     display:block;
     text-align:center;
-
+    color:black;
 }
 .navbar li{
     float:left;
@@ -65,6 +82,7 @@ body{
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
+  cursor:pointer;
 }
 .MyFavorites{
   border:2px solid blue;
@@ -74,6 +92,7 @@ body{
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
+  cursor:pointer;
 }
 .Hobbies{
   border:2px solid blue;
@@ -83,6 +102,7 @@ body{
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
+  cursor:pointer;
 }
 .Feedback{
   border:2px solid blue;
@@ -92,11 +112,13 @@ body{
   box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
   font-size:20px;
   padding:20px;
+  cursor:pointer;
 }
 #Quick{
    text-align: center;
    margin-top:100px;
    padding:0;
+   color:rgb(0, 85, 255);
 }
 .header{
     text-align: center;
@@ -105,6 +127,8 @@ body{
 #Welcome{
     text-align:center;
     font-size:70px;
+    color:rgb(0, 85, 255);
+    text-shadow: blue;;
 }
 h4{
     display:flex;
@@ -118,6 +142,34 @@ h2{
     text-align: center;
     margin-top:40px;
     margin-bottom: -40px;
+}
+.learnmore{
+    position:relative;
+    background:rgb(14, 14, 255);
+    border: none;
+    font-weight:bold;
+    box-shadow: 0 0 10px 1px rgb(70, 70, 255);
+    cursor:pointer;
+}
+.buttons a{
+    text-decoration: none;
+    color:white;
+}
+.Aboutme a{
+    text-decoration: none;
+    color:black;
+}
+.MyFavorites a{
+    text-decoration: none;
+    color:black;
+}
+.Hobbies a{
+    text-decoration:none;
+    color:black;
+}
+.Feedback a{
+    text-decoration: none;
+    color:black;
 }
 #mainp{
     font-size:20px;
@@ -189,7 +241,6 @@ img{
     border-radius: 10px;
     padding:10px;
     margin: 10px;
-
 }
 .Inspo-button{
     display:grid;
@@ -217,7 +268,7 @@ img{
     display:flex;
     gap: 80px;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
 }
@@ -230,8 +281,11 @@ img{
     border-radius:10px;
     cursor:pointer;
     width:300px;
-    height:100px;
+    height:auto;
     box-shadow: 0 12px 15px rgb(0, 0, 0, 0.3);
+}
+.options a{
+    text-decoration: none;
 }
 .Movies{
     margin-top:200px;
@@ -241,6 +295,7 @@ img{
     margin-bottom:100px;
     padding-top:20px;
     box-shadow: 10px 12px 15px 10px rgb(0, 0, 0, 0.3);
+    border:2px solid rgb(158, 154, 154);
 }
 #Moviexp{
     margin:50px;
@@ -344,6 +399,7 @@ img{
     margin-bottom:100px;
     padding-top:20px;
     box-shadow: 10px 12px 15px 10px rgb(0, 0, 0, 0.3);
+    border:2px solid rgb(158, 154, 154);
 }
 #Bookstitle{
     display:flex;
@@ -445,6 +501,7 @@ img{
     margin-bottom:100px;
     padding-top:20px;
     box-shadow: 10px 12px 15px 10px rgb(0, 0, 0, 0.3);
+    border:2px solid rgb(158, 154, 154);
 }
 #Foodstitle{
     display:flex;
@@ -556,13 +613,14 @@ img{
     padding:30px;
     border-radius: 20px;
     box-shadow: 10px 12px 15px rgb(0, 0, 0, 0.3);
-    overflow: auto;
+    overflow: hidden;
 }
 .lookhobb{
     width:100px;
     height:30px;
     border-radius: 10px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .Gym{
   border:2px solid blue;
@@ -573,7 +631,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: auto; /* adds a scroll bar when content moves out of the div's edge */
+  overflow: hidden; /* adds a scroll bar when content moves out of the div's edge */
 }
 .Coding{
   border:2px solid blue;
@@ -584,7 +642,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: auto;
+  overflow: hidden;
 }
 .Reading{
   border:2px solid blue;
@@ -595,7 +653,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: auto;
+  overflow: hidden;
 }
 .Moviesz{
   border:2px solid blue;
@@ -606,7 +664,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: auto;
+  overflow: hidden;
 }
 .Football{
   border:2px solid blue;
@@ -617,7 +675,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: auto;
+  overflow: hidden;
 }
 #Moviemoji{
     text-align: center;
