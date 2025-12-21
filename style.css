@@ -129,16 +129,29 @@ footer{
 }
 #AboutMe{
     text-align: center;
+    font-size:70px;
 }
 .contentofme{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.profilepicture{
+    width:200px;
+    height:auto;
+    border-radius:200px;
+    object-fit: cover;
 }
 #profilep{
     text-align:center;
+    font-size:30px;
 }
 .AboutMeProfile{
     padding:20px;
-    margin:15px;
+    margin:90px 0px;
+
 }
 img{
     display:grid;
@@ -146,28 +159,37 @@ img{
     /* moves the image to the center */
 }
 .EducationalBackground{
-    margin:20px;
-    padding:10px;
+    margin:50px;
+    padding:80px;
     border-radius:30px;
-    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
-    background-color: beige;
+    box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.3);
+    height:auto;
+    width: 300px;
+    font-size:20px;
 }
 .Personality{
     margin:20px;
-    padding:20px;
+    padding:80px;
     border-radius:30px;
-    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
-    background-color: beige;
+    box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.3);
+    height:auto;
+    width: 300px;
+    font-size:20px;
 }
 .GoalsandAspirations{
     margin:20px;
-    padding:10px;
+    padding:80px;
     border-radius:30px;
-    box-shadow: 0px 10px 10px rgb(0,0,0,0.3);
-    background-color: beige;
+    box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.3);
+    height:auto;
+    width: 300px;
+    font-size:20px;
 }
 .Personality button{
     border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+
 }
 .Inspo-button{
     display:grid;
