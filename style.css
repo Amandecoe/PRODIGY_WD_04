@@ -53,10 +53,10 @@ body{
 }
 .navbar li{
     float:left;
-    transition-property: width;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
     color:black;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
 }
 .navbar li:hover{
     transform:scale(1.3);
