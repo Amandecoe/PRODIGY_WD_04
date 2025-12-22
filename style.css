@@ -709,7 +709,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: scroll;
+  overflow: auto;
 }
 .Moviesz{
   border:2px solid blue;
@@ -720,7 +720,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow:scroll;
+  overflow:auto;
 }
 .Football{
   border:2px solid blue;
@@ -731,7 +731,7 @@ img{
   font-size:20px;
   padding:40px;
   margin:20px;
-  overflow: scroll;
+  overflow: auto;
 }
 #Moviemoji{
     text-align: center;
